@@ -36,3 +36,15 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# CDK
+*.d.ts
+*.js
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*
+.gen
+.terraform
+tsconfig.tsbuildinfo
+!jest.config.js
+!setup.js

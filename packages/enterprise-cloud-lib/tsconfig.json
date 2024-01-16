@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/typescript-config/enterprise-cloud-library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src", "*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "cdktf.out"
+  ]
+}
